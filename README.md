@@ -1,10 +1,12 @@
 # Project
 
 REQUIREMENTS
+
 Python 3.9.1
 fuzzingbook
 
 STRUCTURE
+
 checker.py - report generator
 
 Files with a functions to trace:
@@ -16,11 +18,13 @@ example4.py
 example5.py
 
 USAGE
+
 python3 ./checker.py --help
 python3 ./checker.py --file example2.py --iter_max 5
 python3 ./checker.py --file example5.py --tries_max 5 --depth_max 15
 
 TODO list:
+
 1. Use AdvancedSymbolicFuzzer instead of SimpleSymbolicFuzzer [SOLVED]
 2. Certain constraints are untraceble (to the part of the code which generated it) [SOLVED]
 3. Unsatisfiable paths processing (unsat core) [partly solved/in progress]
