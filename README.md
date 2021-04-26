@@ -20,8 +20,12 @@ example5.py
 USAGE
 
 python3 ./checker.py --help
-python3 ./checker.py --file example2.py --iter_max 5
-python3 ./checker.py --file example5.py --tries_max 5 --depth_max 15
+
+python3 ./checker.py --file example2 --iter_max 5
+
+python3 ./checker.py --file example5 --tries_max 5 --depth_max 15
+
+Do not use .py extensions when tracing a file.
 
 TODO list:
 
